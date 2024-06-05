@@ -13,4 +13,9 @@ To install requirements:
 pip install -r requirements.txt
 ```
 ## Training
-1. Download dvs128-gestures.hdf5
+- Download dvs128-gestures.hdf5 file from [link](https://drive.google.com/file/d/12T0IhrZxhNakf3gjBlwJm698f88jNE2E/view?usp=drive_link)
+- Save dvs128-gestures.hdf5 file to the 'true_gradient/dataset/DVS128-Gesture' directory
+
+```train
+python main_training.py
+```
