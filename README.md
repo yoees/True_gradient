@@ -12,4 +12,5 @@ To install requirements:
 ```setup
 pip install -r requirements.txt
 ```
-## Dataset
+## Training
+1. Download dvs128-gestures.hdf5
