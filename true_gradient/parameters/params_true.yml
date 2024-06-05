@@ -1,0 +1,65 @@
+dataset: 'DVSGesture'
+# type_grad: 'STBP'
+# type_grad: 'true_grad'
+type_grad: 'true_grad'
+num_workers: 0
+thresh: 0.3
+thresh_n: -100
+tau_m: 25
+tau_s: 0.
+batch_size: 24
+num_epochs: 100
+num_steps_train: 60
+num_steps_test: 60
+dt: 25
+ds: 4
+frate: 0.3
+weight_decay: 0
+learning_rate: 1.E-4
+lr_decay_rate: 0.1
+lr_decay_interval: 50
+min_lr: 1.E-5
+input_shape:  
+  - 2
+  - 32
+  - 32
+num_layers: 5
+num_conv_layers: 3
+num_dense_layers: 2
+kernel_size:
+- 3
+- 3
+- 3
+channels: 
+- 2
+- 64
+- 128
+- 128
+padding:
+- 1
+- 1
+- 1
+stride:
+- 1
+- 1
+- 1
+pool_size:
+- 2
+- 2
+n_dense:
+- 256
+- 11
+dropout: 0.
+save_interval: 5
+spike_no_limit: 'no'
+loss_function: 'mse'
+lens: 0.
+expo: 8
+mant: 23
+expo_lim1: -15.
+expo_lim2: 2.
+grad_max: 500
+
+max accuracy: 
+  -
+
